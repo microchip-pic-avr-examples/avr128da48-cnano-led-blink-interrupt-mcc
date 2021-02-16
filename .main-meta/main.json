@@ -4,13 +4,13 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.avr128da48-cnano-led-blink-interrupt-mcc",
-        "version": "1.0.0 ",
-        "displayName": " AVR128DA48 LED blink with interrupts - MCC Example ",
+        "version": "1.0.1",
+        "displayName": "GPIO Interrupt",
         "projectName": "avr128da48-cnano-led-blink-interrupt-mcc",
-        "shortDescription": "A program that blinks the LED with a period of 1 second with the use of timer interrupts.",
+        "shortDescription": "This example showcases an LED blink with a period of 1 second with the use of timer interrupts.",
         "ide": {
-            "name": "MPLABX",
-            "semverRange": ">=5.40"
+            "name": "MPLAB X",
+            "semverRange": ">=5.40.0"
         },
         "compiler": [
 			{
@@ -38,19 +38,16 @@
         },
         "author": "Microchip",
         "subcategories": [
-            "MCC",
             [
-               "Peripherals", "TCA0"
+               "Peripherals",
+			   "TCA"
             ]            			
         ],
         "peripherals": [
-            "TCA0"
+            "TCA"
         ],
         "keywords": [
-            "mcc",
-            "led",
-			"blink",
-			"interrupt"
+            "Getting Started"
         ],
 		"additionalData": {
 			"longDescription": {
