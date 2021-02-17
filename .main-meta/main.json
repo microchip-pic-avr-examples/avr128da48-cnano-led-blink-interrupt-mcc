@@ -4,7 +4,7 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.avr128da48-cnano-led-blink-interrupt-mcc",
-        "version": "1.0.1",
+        "version": "1.0.2",
         "displayName": "GPIO Interrupt",
         "projectName": "avr128da48-cnano-led-blink-interrupt-mcc",
         "shortDescription": "This example showcases an LED blink with a period of 1 second with the use of timer interrupts.",
@@ -24,7 +24,7 @@
         },
         "configurator": {
             "name": "MCC",
-            "semverRange": ">=3.95"
+            "semverRange": ">=3.95.0"
         },
         "device": {
             "metaDataVersion": "1.0.0",
